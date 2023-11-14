@@ -29,7 +29,6 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                         width={330}
                         height={400}
                         className="max-h-full max-w-full m-auto flex-2"
-                        fetchPriority="high"
                     />
                 </div>
 
