@@ -24,13 +24,19 @@ const ProductDetails = async ({ params: { id } }: Props) => {
             <div className="flex gap-28 xl:flex-row flex-col">
                 <div className="product-image max-h-400 text-center flex flex-col">
                     <img src={product.image} alt={product.title}
-                        className="max-h-full max-w-full m-auto flex-2" />
-                    {/* <Image
-                        src={product.image}
-                        alt={product.title}
-                        style={{ width: '100%', height: '100%' }}
                         className="max-h-full max-w-full m-auto flex-2"
-                    /> */}
+                        width={330}
+                        height={400}
+                    />
+
+                    {/* <Image 
+                         src={product.image}
+                         alt={product.title}
+                         width={330}
+                         height={400}
+                         className="max-h-full max-w-full m-auto flex-2"
+                         fetchPriority="high"
+                     /> */}
                 </div>
 
                 <div className="flex-1 flex flex-col">
@@ -154,7 +160,7 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                         </div>
                     </div>
 
-                    <Modal productId={id}/>
+                    <Modal productId={id} />
                 </div>
             </div>
 
