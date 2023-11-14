@@ -19,12 +19,13 @@ const Home = async () => {
                 alt="arrow-right"
                 width={16}
                 height={16}
+                loading="eager"
               />
             </p>
 
             <h1 className="head-text">
               Unleash the Power of
-              <span className="text-primary">PriceWise</span>
+              <span className="text-primary"> PriceWise</span>
             </h1>
 
             <p className="mt-6">
