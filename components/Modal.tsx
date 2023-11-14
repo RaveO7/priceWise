@@ -10,8 +10,7 @@ interface Props{
 }
 
 const Modal = ({productId}: Props) => {
-    let [isOpen, setIsOpen] = useState(true)
-    const [searchPrompt, setSearchPrompt] = useState('');
+    let [isOpen, setIsOpen] = useState(false)
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('');
 
@@ -35,7 +34,7 @@ const Modal = ({productId}: Props) => {
             </button>
 
             <Transition appear show={isOpen} as={Fragment}>
-                <Dialog as="div" onClose={closeModal} className="dialog-container">
+                <Dialog as="div" onClose={closeModal} className="dialog-container" aria-roledescription="dialog" aria-modal="true">
                     <div className="min-h-screen px-4 text-center">
                         <Transition.Child
                             as={Fragment}
