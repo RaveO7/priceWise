@@ -11,7 +11,6 @@ interface Props{
 
 const Modal = ({productId}: Props) => {
     let [isOpen, setIsOpen] = useState(true)
-    const [searchPrompt, setSearchPrompt] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [email, setEmail] = useState('');
 
