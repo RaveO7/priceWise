@@ -29,7 +29,7 @@ const HeroCarousel = () => {
                         height={484}
                         className='object-contain'
                         key={image.alt}
-
+                        loading="eager"
                     />
                 ))}
 

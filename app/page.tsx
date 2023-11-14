@@ -19,7 +19,6 @@ const Home = async () => {
                 alt="arrow-right"
                 width={16}
                 height={16}
-                loading="eager"
               />
             </p>
 
