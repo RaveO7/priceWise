@@ -25,8 +25,8 @@ const ProductDetails = async ({ params: { id } }: Props) => {
                 <div className="product-image max-h-400 text-center flex flex-col">
                     <img src={product.image} alt={product.title}
                         className="max-h-full max-w-full m-auto flex-2"
-                        // width={330}
-                        // height={400}
+                        width={330}
+                        height={1000}
                     />
 
                     {/* <Image 
