@@ -11,7 +11,7 @@ module.exports = {
         primary: {
           DEFAULT: "#E43030",
           "orange": "#D48D3B",
-          "green": "#3E9242"
+          "green": "#3E9242",
         },
         secondary: "#282828",
         "gray-200": "#EAECF0",
@@ -24,6 +24,7 @@ module.exports = {
         "white-200": "#EDF0F8",
         "black-100": "#3D4258",
         "neutral-black": "#23263B",
+        "neutral-red": "#AD1A1A"
       },
       boxShadow: {
         xs: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
